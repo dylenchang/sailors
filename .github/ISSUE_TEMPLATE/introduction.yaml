@@ -56,4 +56,13 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: privacy
+    attributes:
+      label: 以上信息是否愿意保留?
+      description: |
+        请填写是或者否, 填写否的话浏览后会进行删除操作.
+    validations:
+      required: true
+
 
