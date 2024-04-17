@@ -1,0 +1,59 @@
+name: 需求追踪表
+description: 请根据实际情况填写下方的内容, 方便大家相互认识
+labels: kind/feature
+body:
+  - type: textarea
+    id: nickname
+    attributes:
+      label: 希望别人怎么称呼你?
+      description: |
+        请填写你希望别人对你的称呼.
+    validations:
+      required: true
+
+  - type: textarea
+    id: desire
+    attributes:
+      label: 希望做一件让自己觉得骄傲的事吗?
+      description: |
+        请填写是或者否.
+    validations:
+      required: true
+
+  - type: textarea
+    id: advantage
+    attributes:
+      label: 擅长什么?
+      description: |
+        请填写你擅长或者比较擅长的项目.
+    validations:
+      required: true
+
+  - type: textarea
+    id: hobby
+    attributes:
+      label: 爱好什么?
+      description: |
+        请填写你爱好的项目.
+    validations:
+      required: true
+
+  - type: textarea
+    id: time
+    attributes:
+      label: 每周的自由支配时间?
+      description: |
+        以小时为单位.
+    validations:
+      required: true
+
+  - type: textarea
+    id: experience
+    attributes:
+      label: 是否之前参与过开源项目?
+      description: |
+        请填写是或者否.
+    validations:
+      required: true
+
+
